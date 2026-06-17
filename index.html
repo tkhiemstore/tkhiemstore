@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Đầu Tiên</title>
+
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#111;
+            color:white;
+            font-family:Arial,sans-serif;
+        }
+
+        .box{
+            text-align:center;
+            padding:30px;
+            border-radius:15px;
+            background:#1e1e1e;
+            box-shadow:0 0 20px rgba(255,255,255,.1);
+        }
+
+        button{
+            padding:10px 20px;
+            border:none;
+            border-radius:10px;
+            cursor:pointer;
+            font-size:16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Xin Chào 👋</h1>
+        <p>Web được tạo bởi Nick</p>
+
+        <button onclick="hello()">
+            Bấm vào đây
+        </button>
+    </div>
+
+    <script>
+        function hello(){
+            alert("Chào mừng bạn đến với website!");
+        }
+    </script>
+
+</body>
+</html>
